@@ -17,6 +17,6 @@ This project simulates a single-cycle MIPS processor using SystemVerilog. The pr
 3. Run the simulation to observe the processor's behavior.
 4. Refer to the documentation for further details on design and testing.
 # Contributors:
-Jean Claude HIRWA (hicodev-rw)
-Angelique UWAMAHORO (angelbidas)
-Edwin NAMBAJE (edwinnambaje)
+1. Jean Claude HIRWA (hicodev-rw)
+2. Angelique UWAMAHORO (angelbidas)
+3. Edwin NAMBAJE (edwinnambaje)
