@@ -1,0 +1,53 @@
+# Compile of InstructionMemory.sv was successful.
+# Compile of InstructionMemory_TB.sv was successful.
+# Compile of DataMemory.sv was successful.
+# Compile of DataMemory_TB.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_TB.sv was successful.
+# Compile of RegisterFile.sv was successful.
+# Compile of RegisterFile_TB.sv was successful.
+# Compile of ControlUnit.sv was successful.
+# Compile of ControlUnit_TB.sv was successful.
+# Compile of MUX.sv was successful.
+# Compile of MUX_TB.sv was successful.
+# Compile of Decoder.sv was successful.
+# Compile of Decoder_TB.sv was successful.
+# Compile of ProgramCounter.sv was successful.
+# Compile of ProgramCounter_TB.sv was successful.
+# Compile of Adder.sv was successful.
+# Compile of Adder_TB.sv was successful.
+# Compile of SignExtendUnit.sv was successful.
+# Compile of SignExtendUnit_TB.sv was successful.
+# Compile of LeftShifter.sv was successful.
+# Compile of RightShifter.sv was successful.
+# Compile of Shifters_TB.sv was successful.
+# 23 compiles, 0 failed with no errors.
+vsim -gui work.Mux2to1_TB
+# vsim -gui work.Mux2to1_TB 
+# Start time: 15:22:26 on Dec 28,2023
+# Loading sv_std.std
+# Loading work.Mux2to1_TB
+# Loading work.Mux2to1
+add wave sim:/Mux2to1_TB/*
+run
+# MUX result: 0x12345678
+# MUX result: 0x33334444
+# ** Note: $stop    : D:/Simulation_V2/MUX_TB.sv(38)
+#    Time: 2 ns  Iteration: 0  Instance: /Mux2to1_TB
+# Break in Module Mux2to1_TB at D:/Simulation_V2/MUX_TB.sv line 38
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# MUX result: 0x12345678
+# MUX result: 0x33334444
+# ** Note: $stop    : D:/Simulation_V2/MUX_TB.sv(38)
+#    Time: 2 ns  Iteration: 0  Instance: /Mux2to1_TB
+# Break in Module Mux2to1_TB at D:/Simulation_V2/MUX_TB.sv line 38
+run
+# End time: 15:28:20 on Dec 28,2023, Elapsed time: 0:05:54
+# Errors: 0, Warnings: 1

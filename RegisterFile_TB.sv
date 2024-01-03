@@ -1,0 +1,58 @@
+`timescale 1ns/1ns
+
+module RegisterFile_TB;
+
+    localparam DATA_WIDTH = 32;
+
+    reg clk;
+    reg rst;
+    reg [4:0] reg_we;
+    reg [4:0] reg_waddr;
+    reg [DATA_WIDTH-1:0] reg_wdata;
+    reg [4:0] reg_raddr1;
+    reg [4:0] reg_raddr2;
+    wire [DATA_WIDTH-1:0] reg_rdata1;
+    wire [DATA_WIDTH-1:0] reg_rdata2;
+
+    RegisterFile #(
+        .DATA_WIDTH(DATA_WIDTH)
+    ) UUT (
+        .clk(clk),
+        .rst(rst),
+        .reg_we(reg_we),
+        .reg_waddr(reg_waddr),
+        .reg_wdata(reg_wdata),
+        .reg_raddr1(reg_raddr1),
+        .reg_raddr2(reg_raddr2),
+        .reg_rdata1(reg_rdata1),
+        .reg_rdata2(reg_rdata2)
+    );
+
+    // Clock generation
+    initial begin
+        clk = 1'b0;
+        forever #5 clk = ~clk;
+    end
+
+    // Test scenarios
+    initial begin
+        rst = 1'b1;
+        #10 rst = 1'b0;
+
+        // Write test
+        reg_we = 5'b10000;
+        reg_waddr = 5'd10;
+        reg_wdata = 32'h12345678;
+        #10;
+
+        // Read test
+        reg_we = 5'b0;
+        reg_raddr1 = 5'd10;
+        reg_raddr2 = 5'd5;
+        #10;
+
+        $finish;
+    end
+
+endmodule
+

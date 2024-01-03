@@ -1,0 +1,120 @@
+D:/Simulation_V2/ControlUnit.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/ControlUnit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}} D:/Simulation_V2/RegisterFile_TB.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/RegisterFile_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterFile_TB
+
+Top level modules:
+	RegisterFile_TB
+
+} {} {}} D:/Simulation_V2/RightShifter.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/RightShifter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RightShifter
+
+Top level modules:
+	RightShifter
+
+} {} {}} D:/Simulation_V2/DataMemory.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/DataMemory.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} D:/Simulation_V2/ControlUnit_TB.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/ControlUnit_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ControlUnit_TB
+
+Top level modules:
+	ControlUnit_TB
+
+} {} {}} D:/Simulation_V2/ALU_TB.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/ALU_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_TB
+
+Top level modules:
+	ALU_TB
+
+} {} {}} D:/Simulation_V2/MUX_TB.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/MUX_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux2to1_TB
+
+Top level modules:
+	Mux2to1_TB
+
+} {} {}} D:/Simulation_V2/LeftShifter.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/LeftShifter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LeftShifter
+
+Top level modules:
+	LeftShifter
+
+} {} {}} D:/Simulation_V2/DataMemory_TB.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/DataMemory_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMemory_TB
+
+Top level modules:
+	DataMemory_TB
+
+} {} {}} D:/Simulation_V2/MUX.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/MUX.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux2to1
+
+Top level modules:
+	Mux2to1
+
+} {} {}} D:/Simulation_V2/ALU.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/ALU.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} D:/Simulation_V2/InstructionMemory.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/InstructionMemory.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstructionMemory
+
+Top level modules:
+	InstructionMemory
+
+} {} {}} D:/Simulation_V2/ProgramCounter_TB.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/ProgramCounter_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ProgramCounter_TB
+
+Top level modules:
+	ProgramCounter_TB
+
+} {} {}} D:/Simulation_V2/RegisterFile.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/RegisterFile.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} D:/Simulation_V2/Shifters_TB.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/Shifters_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Shifter_TB
+
+Top level modules:
+	Shifter_TB
+
+} {} {}} D:/Simulation_V2/InstructionMemory_TB.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/InstructionMemory_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstructionMemory_TB
+
+Top level modules:
+	InstructionMemory_TB
+
+} {} {}} D:/Simulation_V2/ProgramCounter.sv {1 {vlog -work work -sv -stats=none D:/Simulation_V2/ProgramCounter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ProgramCounter
+
+Top level modules:
+	ProgramCounter
+
+} {} {}}

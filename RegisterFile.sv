@@ -1,0 +1,31 @@
+module RegisterFile #(
+    parameter DATA_WIDTH = 32
+)(
+    input clk,
+    input rst,
+    input [4:0] reg_we,
+    input [4:0] reg_waddr,
+    input [DATA_WIDTH-1:0] reg_wdata,
+    input [4:0] reg_raddr1,
+    input [4:0] reg_raddr2,
+    output reg [DATA_WIDTH-1:0] reg_rdata1,
+    output reg [DATA_WIDTH-1:0] reg_rdata2
+);
+
+    reg [DATA_WIDTH-1:0] registers [0:31];
+
+    always @(posedge clk) begin
+        if (rst) begin
+            for (int i = 0; i < 32; i++) begin
+                registers[i] <= 0;
+            end
+        end else if (reg_we != 0) begin
+            registers[reg_waddr] <= reg_wdata;
+        end
+
+        reg_rdata1 <= registers[reg_raddr1];
+        reg_rdata2 <= registers[reg_raddr2];
+    end
+
+endmodule
+
